@@ -133,6 +133,7 @@ width: 100%;
     line-height: 4em;
     border-radius: 35px;
     margin-bottom: 0;
+    margin-top: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
@@ -141,17 +142,15 @@ body{
     padding: 0;
 }
 #headline_rodape{
-    background: #dc285f;
     text-align: center;
     font-size: 22px;
-    color: black;
-    background-image: linear-gradient(to right, #dc285f, #ef50a4);
+    color: white;
     margin: 0;
     padding: 10px;
 }
 #rodape{
     color: white;
-    background-image: linear-gradient(to right, #dc285f, #ef50a4);
+    background-color: black;
     width: auto;
 }
 .texto_rodape{
@@ -205,4 +204,28 @@ body{
   }
   .area_branca{
       background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      color: black;
   }
+  .area_preta{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h3{
+    color: red;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.2em;
+}
+#texto_AreaBranca{
+    text-align: justify;
+    width: auto;
+    margin: auto;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
